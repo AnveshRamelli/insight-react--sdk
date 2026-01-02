@@ -1,10 +1,13 @@
 {
   "name": "insight-react-sdk",
   "version": "1.0.0",
-  "description": "",
+  "description": "React SDK for rendering insights",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -13,13 +16,18 @@
     }
   },
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch"
+    "build": "tsup"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "keywords": [
+    "react",
+    "sdk",
+    "charts",
+    "analytics",
+    "insights",
+    "frontend"
+  ],
+  "author": "Anvesh Ramelli",
+  "license": "MIT",
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
